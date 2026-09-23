@@ -1,0 +1,60 @@
+{
+  "station": {
+    "name": "Tideglass Field Station",
+    "purpose": "Coordinate repeatable shoreline observations for local habitat stewards.",
+    "location": "East breakwater, Gullhaven Estuary",
+    "contact": "fielddesk@tideglass.example",
+    "season": "April through October",
+    "safety_note": "Visits pause during electrical storms and when the harbor beacon shows red."
+  },
+  "routes": [
+    {
+      "name": "Saltmarsh Edge Transect",
+      "route_id": "TG-14",
+      "habitat": "cordgrass fringe",
+      "window": "90 minutes before low tide",
+      "protocol": "Record wrack depth at every fifth marker."
+    },
+    {
+      "name": "Oyster Bench Loop",
+      "route_id": "TG-03",
+      "habitat": "intertidal shell reef",
+      "window": "low tide to 45 minutes after",
+      "protocol": "Photograph each fixed quadrat without moving shell."
+    },
+    {
+      "name": "Dune Swale Passage",
+      "route_id": "TG-27",
+      "habitat": "brackish dune swale",
+      "window": "sunrise to 09:30",
+      "protocol": "Log bird detections by sound before visual confirmation."
+    },
+    {
+      "name": "Creek Mouth Drift",
+      "route_id": "TG-09",
+      "habitat": "tidal creek mouth",
+      "window": "first hour of flood tide",
+      "protocol": "Collect floating-litter counts from the marked overlook only."
+    }
+  ],
+  "access_sessions": [
+    {
+      "name": "Volunteer Orientation",
+      "day": "First Saturday",
+      "time": "08:15",
+      "meeting_point": "Blue gate beside the ferry shed"
+    },
+    {
+      "name": "Data Desk",
+      "day": "Wednesday",
+      "time": "16:30",
+      "meeting_point": "Archive room, upper station"
+    },
+    {
+      "name": "Route Refresher",
+      "day": "Third Sunday",
+      "time": "07:45",
+      "meeting_point": "Tide board at the east ramp"
+    }
+  ]
+}
